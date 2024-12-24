@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  #game-title {
+    font-size: 3rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+  }
+
+  #animal-image {
+    position: absolute;
+    width: 100px;
+    height: auto;
+    display: none; /* Hidden until an animal is selected */
+  }
+
+  .navbar {
+    width: 100%; /* Full width banner */
+  }
